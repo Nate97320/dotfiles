@@ -51,4 +51,10 @@
   rebase = false
 [user]
 	email = nate-nate86@hotmail.com
-	name = Neytullah BAHADIR
+	name = NEYTULLAH BAHADIR
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
